@@ -38,7 +38,7 @@ for(let i = 0; i < positiveNumbers.length; i++) {
 const mixedSignNumbers = [3, 15, 14, -2, -3, -8, -103, 4];
 
 for(let i = 0; i < mixedSignNumbers.length; i++) {
-  if(mixedSignNumbers[i] % 2 === 0 || mixedSignNumbers[i] % 2 === 0 && mixedSignNumbers[i] <= 0) {
+  if(mixedSignNumbers[i] % 2 === 0) {
     console.log(`The even numbers are at index: ${i} and is the number: ${mixedSignNumbers[i]}`)
   }
 }
