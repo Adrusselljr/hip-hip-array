@@ -147,4 +147,10 @@ const primaries = ['red', 'yellow', 'blue']
 const secondaries = ['orange', 'green', 'purple']
 const newArr = primaries.concat(secondaries)
 
-console.log(newArr)
+for(let i = 0; i < newArr.length; i++) {
+  console.log(newArr[i])
+}
+
+console.log(`primaries: ${primaries}`)
+console.log(`secondaries: ${secondaries}`)
+console.log(`newArr: ${newArr}`)
